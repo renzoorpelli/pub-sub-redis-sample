@@ -1,0 +1,6 @@
+@Feeds.Aggregator_HostAddress = http://localhost:5198
+
+GET {{Feeds.Aggregator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
